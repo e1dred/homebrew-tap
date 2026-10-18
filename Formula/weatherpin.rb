@@ -1,4 +1,3 @@
-ruby
 class Weatherpin < Formula
   desc "Pin any place to GNOME Weather by typing its name"
   homepage "https://github.com/e1dred/weatherpin"

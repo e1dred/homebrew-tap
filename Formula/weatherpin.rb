@@ -23,3 +23,4 @@ class Weatherpin < Formula
     assert_match version.to_s, shell_output("#{bin}/weatherpin --version")
   end
 end
+.

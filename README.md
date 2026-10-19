@@ -10,24 +10,24 @@ A [Homebrew](https://brew.sh) tap for e1dred's tools.
 
 ## Installation
 
-Add the tap and install a formula:
+Install a formula with one command. Homebrew adds the tap for you:
+
+```bash
+brew install e1dred/tap/weatherpin
+```
+
+### Installing from GitLab instead
+
+This tap is developed on GitLab and mirrored to GitHub. To use the GitLab copy,
+add the tap with its URL first:
 
 ```bash
 brew tap e1dred/tap https://gitlab.com/e1dred/homebrew-tap.git
 brew install weatherpin
 ```
 
-The URL is needed because Homebrew assumes taps live on GitHub. You only have to
-run `brew tap` once.
-
-### Using the GitHub mirror
-
-If this tap is mirrored to GitHub as `e1dred/homebrew-tap`, you can skip the tap
-step and install in one command:
-
-```bash
-brew install e1dred/tap/weatherpin
-```
+If you've already tapped one source, remove it before switching to the other:
+`brew untap e1dred/tap`.
 
 ## Updating
 
@@ -84,4 +84,4 @@ Releasing a new version of a tool:
 
 ## License
 
-[BSD Zero Clause License (0BSD)](https://github.com/e1dred/weatherpin/blob/main/LICENSE) — use it however you like.
+[BSD Zero Clause License (0BSD)](LICENSE) — use it however you like.

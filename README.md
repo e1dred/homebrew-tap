@@ -82,6 +82,10 @@ Releasing a new version of a tool:
    brew test weatherpin
    ```
 
+## Acknowledgments
+
+This tap was written with [Claude](https://claude.ai), Anthropic's AI assistant.
+
 ## License
 
 [BSD Zero Clause License (0BSD)](LICENSE) — use it however you like.
